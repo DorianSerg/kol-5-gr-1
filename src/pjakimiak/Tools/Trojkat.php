@@ -14,6 +14,7 @@ class Trojkat
         $this->a = $a;
 
         return $this;
+        
     }
 
     public function setB($b)
