@@ -31,12 +31,7 @@ class Poletrojkata
     }
 
     
-    function it_should_calculate_multiply()
-{
-    $this->setA(4)->setB(4)->multiply()->shouldReturn(8);
-    
-    
-}
+  
 
 public function multiply()
 {

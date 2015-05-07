@@ -18,4 +18,10 @@ class PoletrojkataSpec extends ObjectBehavior
         $this->setB(987)->getB()->shouldReturn(987);
     } 
     
+      function it_should_calculate_multiply()
+{
+    $this->setA(4)->setB(4)->multiply()->shouldReturn(8);
+    
+    
+}
 }
